@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etid" type="id" />
+    <item name="etpname" type="id" />
+    <item name="etphone" type="id" />
+    <item name="etdname" type="id" />
+    <item name="etdate" type="id" />
+    <item name="checkBox" type="id" />
+    <item name="etpname" type="id" />
+    <item name="etpname" type="id" />
+    <item name="checkBox2" type="id" />
+    <item name="tableLayout" type="id" />
+    <item name="textView7" type="id" />
+</resources>
