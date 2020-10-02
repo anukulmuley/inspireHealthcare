@@ -17,6 +17,7 @@ public class doctorSide extends AppCompatActivity implements View.OnClickListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_side);
+        getSupportActionBar().hide();
 
         card1=(CardView)findViewById(R.id.d1);
         card2=(CardView)findViewById(R.id.d2);

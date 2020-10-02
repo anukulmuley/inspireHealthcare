@@ -18,6 +18,7 @@ public class studentSignup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_signup);
+        getSupportActionBar().hide();
 
         regName=findViewById(R.id.reg_PatientName);
         regUsername=findViewById(R.id.reg_username);

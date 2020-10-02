@@ -27,6 +27,7 @@ public class doctorSignIn extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_sign_in);
+        getSupportActionBar().hide();
 
         moveToSignUp2 = findViewById(R.id.docsignup_screen);
         moveToSignUp2.setOnClickListener(new View.OnClickListener() {

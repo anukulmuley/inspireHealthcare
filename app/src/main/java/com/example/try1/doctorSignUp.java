@@ -18,6 +18,7 @@ public class doctorSignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_sign_up);
+        getSupportActionBar().hide();
 
         regName1=findViewById(R.id.doc_Name);
         regUsername1=findViewById(R.id.doc_username);

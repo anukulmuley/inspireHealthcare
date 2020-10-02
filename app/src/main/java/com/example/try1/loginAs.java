@@ -14,6 +14,7 @@ public class loginAs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_as);
+        getSupportActionBar().hide();
 
         moveToAdmin = findViewById(R.id.log_admin);
         moveToAdmin.setOnClickListener(new View.OnClickListener() {

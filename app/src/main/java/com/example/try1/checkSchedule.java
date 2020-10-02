@@ -10,5 +10,6 @@ public class checkSchedule extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_schedule);
+        getSupportActionBar().hide();
     }
 }

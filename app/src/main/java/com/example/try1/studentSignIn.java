@@ -27,6 +27,7 @@ public class studentSignIn extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_sign_in);
+        getSupportActionBar().hide();
 
         moveToSignUp = findViewById(R.id.signup_screen);
         moveToSignUp.setOnClickListener(new View.OnClickListener() {
