@@ -49,7 +49,7 @@ public class myadapter extends RecyclerView.Adapter<viewholder>{
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, "Clicked", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(context, MainActivity2.class);
+                Intent intent = new Intent(context, transaction_1.class);
                 intent.putExtra("date",temp.getDate());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
