@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NoteEditorActivity"></activity>
+        <activity android:name=".viewUpload_statusReport"></activity>
+        <activity android:name=".NoteEditorActivity" />
         <activity android:name=".transaction_1" />
         <activity android:name=".medicalOrder" />
         <activity android:name=".meetings" />
