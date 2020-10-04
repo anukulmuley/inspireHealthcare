@@ -162,7 +162,7 @@
                         android:layout_width="109dp"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Transaction"
+                        android:text="Transactions"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="14sp"

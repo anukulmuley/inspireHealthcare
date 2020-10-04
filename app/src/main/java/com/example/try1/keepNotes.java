@@ -50,6 +50,7 @@ public class keepNotes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_keep_notes);
 
+
         ListView listView = (ListView) findViewById(R.id.listView);
         SharedPreferences sharedPreferences=getApplicationContext().getSharedPreferences("com.example.notes", Context.MODE_PRIVATE);
         HashSet<String> set = (HashSet<String>)sharedPreferences.getStringSet("notes",null);
